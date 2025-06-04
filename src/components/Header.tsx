@@ -19,10 +19,12 @@ const Header = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <div className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-gradient-to-br from-industrial-500 to-energy-500 rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-sm">S</span>
-            </div>
+          <div className="flex items-center space-x-3">
+            <img 
+              src="/lovable-uploads/6358fb5f-f46e-4e06-87a9-fc4a5d2de66b.png" 
+              alt="EGE Soluções" 
+              className="w-12 h-12"
+            />
             <div>
               <span className="text-xl font-bold text-gray-900 font-poppins">SIDE</span>
               <p className="text-xs text-gray-500 leading-none">EGE Soluções</p>

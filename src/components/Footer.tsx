@@ -8,10 +8,12 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-8">
           {/* Logo e descrição */}
           <div className="md:col-span-2">
-            <div className="flex items-center space-x-2 mb-4">
-              <div className="w-10 h-10 bg-gradient-to-br from-industrial-500 to-energy-500 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold">S</span>
-              </div>
+            <div className="flex items-center space-x-3 mb-4">
+              <img 
+                src="/lovable-uploads/6358fb5f-f46e-4e06-87a9-fc4a5d2de66b.png" 
+                alt="EGE Soluções" 
+                className="w-12 h-12 bg-white rounded-lg p-1"
+              />
               <div>
                 <span className="text-2xl font-bold font-poppins">SIDE</span>
                 <p className="text-sm text-gray-400 leading-none">Sistema Integrado de Desempenho Energético</p>
